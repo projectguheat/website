@@ -1,5 +1,7 @@
 .photo{
-  max-width: 7em;
+  max-width: 15em;
+  max-height: 45em;
+  margin-top: 3em;
 }
 
 
@@ -41,19 +43,6 @@
 
 .carousel-control-next-icon{
     background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e")
-}
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
-  
-/* Thin out the featurette headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
 }
 
 /* MODAL
@@ -114,6 +103,21 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the featurette headings */
+.featurette-heading {
+font-weight: 300;
+line-height: 1;
+letter-spacing: -.05rem;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
