@@ -4,6 +4,21 @@
   margin-top: 3em;
 }
 
+.univphoto{
+  max-width: 40em;
+  margin-top: 2em;
+}
+
+.univlogo{
+  max-width: 20em;
+}
+
+.col-md-7 p{
+  text-align: justify;
+}
+.col-md-7 h2{
+  text-align: center;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
