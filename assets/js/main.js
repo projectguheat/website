@@ -1,3 +1,5 @@
+
+// CAROUSEL
 var modalContainer = document.getElementById("modalContainer");
 var img1 = document.getElementById("img1");
 var modalImg1 = document.getElementById("modalImg1");
@@ -27,3 +29,14 @@ var span = document.getElementById("closeButt");
 span.onclick = function() {
   modalContainer.style.display = "none";
 }
+
+
+
+// DATA DOWNLOAD
+// var text = [text1,text2,text3]
+// text.forEach(function(el) {
+//     var div = document.createElement("div");
+//     div.className = "finalBlock";
+//     div.innerHTML = el;
+//     document.body.appendChild(div);
+// });
